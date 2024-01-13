@@ -1,0 +1,42 @@
+.links{
+    height: 57.97px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.imgCont{
+    position: relative;
+}
+.info{
+    bottom: 2.5rem;
+}
+.active{
+    color: blue;
+}
+/* .follower-side{
+    position: absolute;
+    top: -1rem;
+    right: -5rem;
+} */
+.follower-side p {
+    width: 20%;
+}
+.profilePic img{
+    border-radius: 50%;
+}
+ul{
+    list-style: none;
+}
+.margin{
+    margin-right: 70px;
+}
+.fixed-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+    z-index: 100; 
+}
